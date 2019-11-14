@@ -13,3 +13,4 @@ An extension from Chrome/Firefox to assuage my frustrations with that website
     - ~~Modify `Cache-Control` response header, currently set to `no-cache`~~ [Cache headers cannot be modified](https://developer.chrome.com/extensions/webRequest)
     - ~~Use the Service Worker API to cache the response body~~ `background` Service Workers are not supported in Firefox and [only _in preview_ for Chrome](https://developer.chrome.com/extensions/migrating_to_manifest_v3#service_workers)
     - **TODO** Use [the `proxy` API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy) to cache the response (or set cache headers) with a local server ([vague example](https://github.com/mdn/webextensions-examples/tree/master/proxy-blocker))
+    - Or like maybe email Vimeo/Criterion to see if they can fix??

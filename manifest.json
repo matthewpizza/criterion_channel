@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Criterion",
+    "version": "1.0",
+    "description": "Assuage my frustrations",
+    "content_scripts": [
+        {
+            "matches": ["https://films.criterionchannel.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "permissions": [
+        "https://*.criterionchannel.com/"
+    ]
+}
